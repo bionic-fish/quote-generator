@@ -1,0 +1,21 @@
+
+var quotes = [
+	[Phillip J Fry]
+
+	["Man, I thought Ultimate Robot Fighting was real, like pro-wrestling, but it turns out it's fixed, like boxing.", "Phillip J. Fry"],
+	["That was the saltiest thing I ever tasted! And I once ate a big heaping bowl of salt!", "Phillip J. Fry"],
+	["Space. It seems to go on forever. But then you get to the end and the gorilla starts throwin' barrels at you.", "Phillip J. Fry"],
+	
+	
+	[Bender R. Rodriguez]
+	
+	["Hey, whose been messing with my radio? This isn’t alternative rock, it’s college rock.", "Bender R. Rodriguez"],
+	["My story is a lot like yours, only more interesting 'cause it involves robots.", "Bender R. Rodriguez"],
+	["Hey! Bite my shiney metal a**!", "Bender R. Rodriguez"],
+		
+	[Zapp Brannigan]
+	
+	["She’s built like a steakhouse, but she handles like a bistro!", "Cpt. Zapp Brannigan"],
+	["If we hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate.", "Cpt. Zapp Brannigan"],
+	["Well, well. We meet again, Leela, only this time, I’m the one judging the sausage.", "Cpt. Zapp Brannigan"],
+];

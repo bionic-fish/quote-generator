@@ -1,0 +1,167 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* global css */
+body {
+    background-image: url(../img/app-bkg.JPG);
+    background-attachment: fixed;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 50vh; */
+    width: 100%;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+section  {
+    text-align: center;
+    color: #fff;
+    font-family: 'Audiowide', cursive;
+    
+}
+/*  headings  */
+h3, h4 {
+    text-shadow: 2px 1px rgb(36,124,206);
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-decoration-style: solid 15px;
+}
+/* top bar and footer */
+#topbar, 
+#footer {
+    font-family: 'Gruppo', cursive;
+    height: fit-content;
+    background-color: rgba(36, 124, 206, 0.5);
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+#topbar a {
+    color: #fff;
+    font-size: 1.3em;
+    padding: 5px;
+}
+#footer {
+    /* position: absolute; */
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+/* futurama app wrapper */
+.app__container {
+    width: 100%;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    clear: both;
+}
+
+
+button {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgba(36, 124, 206, 0.5);
+    font-weight: bolder;
+    font-family: 'Audiowide', cursive;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+.quotes__container {
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 100%;
+    opacity: 0.8;
+    height: 300px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.quotes__container blockquote,
+.quotes__container h5 {
+    margin: auto;
+    font-size: 1.1em;
+}
+/*  character portraits props */
+/* holds positioning for items */
+.box {
+    height: 150px;
+    width: 150px;
+    background:darkblue;
+    margin: 0px auto;
+    border-radius: 50%;
+    display: flex;
+
+    background-position: center;
+    background-size: cover;
+}
+.box h5 {
+    align-items: center;
+    justify-content: center;
+}
+/* .box_[character] backgrounds */
+.box_fry {
+    background-image: url(../img/fry.jpg);
+}
+.box_bender {
+    background-image: url(../img/bender.jpg);
+}
+.box_zapp {
+    background-image: url(../img/zapp.jpg);
+}
+.flex {
+    background-color: rgba(36, 124, 206, 0.5);
+    margin: 10px;
+}
+/* media queries for desktop */
+@media screen and (min-width: 900px) {
+    .quotes__container {
+        border-radius: 10px;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 25px;
+    }
+    .flex {
+        display: flex;
+        height: 25vh;
+        padding: 10px;
+        
+    }
+    .flexitems {
+        flex: 33%;
+        margin: auto;
+    }
+    .box {
+        margin: auto;
+    }
+    .container {
+        max-width: 900px;
+        /* margin-top: 30px; */
+    }
+    #topbar {
+        height: 50px;
+    }
+    .topbar__left {
+        float: left;
+    }
+    .topbar__right {
+        float: right;
+    }
+    #footer {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+}
